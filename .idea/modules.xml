@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LogsdkDemo.iml" filepath="$PROJECT_DIR$/LogsdkDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logsdk/logsdk.iml" filepath="$PROJECT_DIR$/logsdk/logsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log4j-android/log4j-android.iml" filepath="$PROJECT_DIR$/log4j-android/log4j-android.iml" />
     </modules>
   </component>
 </project>

@@ -80,6 +80,7 @@ install {
                 // 项目描述，复制我的话，这里需要修改。
                 name 'Logsdk For Android'// 可选，项目名称。
                 description 'Logsdk base on log4j For Android.'// 可选，项目描述。
+                artifactId project.name
                 url siteUrl // 项目主页，这里是引用上面定义好。
 
                 // 软件开源协议，现在一般都是Apache License2.0吧，复制我的，这里不需要修改。
@@ -141,7 +142,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"  // 上传到maven库。
-        name = "AndroidLogsdk"  // 发布到Bintray上的项目名字，这里的名字不是compile 'tech.ouyezi:utils:1.0.0'。
+        name = project.name // 发布到Bintray上的项目名字，这里的名字不是compile 'tech.ouyezi:logsdk:1.0.0'。
         userOrg = 'ouyezitech' // Bintray的用户名
         websiteUrl = siteUrl
         vcsUrl = gitUrl

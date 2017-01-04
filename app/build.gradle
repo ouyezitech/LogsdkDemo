@@ -54,5 +54,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.0'
     testCompile 'junit:junit:4.12'
-    compile project(':logsdk')
+    compile project(':log4j-android')
 }

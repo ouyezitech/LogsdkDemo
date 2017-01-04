@@ -1,1 +1,1 @@
-include ':app', ':logsdk'
+include ':app', ':log4j-android'
